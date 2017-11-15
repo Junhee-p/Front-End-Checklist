@@ -72,7 +72,7 @@ gulp.task('compile-pug', () => {
       this.emit('end');
     }))
     .pipe(data(() => {
-      return require('./data/en/_project.json');
+      return require('./data/ko/_project.json');
     }))
 		.pipe(pug({
       locals: {},
@@ -262,18 +262,18 @@ gulp.task("clean-coverage",  () => {
 });
 
 gulp.task('json-rebuild', () => {
-  gulp.src("./data/en/items/*.json")
+  gulp.src("./data/ko/items/*.json")
     .pipe(jsonConcat('./_items.json', (data) => {
       return new Buffer(JSON.stringify(data));
     }))
-    .pipe(gulp.dest('./data/en'))
+    .pipe(gulp.dest('./data/ko'))
 
     .on('finish', () => {
-      return gulp.src([ "./data/en/_items.json", './data/en/project/*.json'])
+      return gulp.src([ "./data/ko/_items.json", './data/ko/project/*.json'])
         .pipe(jsonConcat('./_project.json', (data) => {
           return new Buffer(JSON.stringify(data));
         }))
-        .pipe(gulp.dest('./data/en'));
+        .pipe(gulp.dest('./data/ko'));
     })
     .pipe(browserSync.reload({stream: true}));
 });

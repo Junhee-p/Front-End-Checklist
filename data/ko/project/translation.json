@@ -1,0 +1,39 @@
+{
+  "SITE_NAME": "프론트엔드 체크리스트",
+  "INDEX_TITLE": "🔥 당신의 새로운 프론트엔드 도구 🔥",
+  "URL_WEBSITE": "http://frontendchecklist.com",
+  "SITE_DESCRIPTION": "🗂 프론트엔드 체크리스트 어플리케이션은 모던 웹사이트와 꼼꼼한 개발자들에게 완벽한 선택입니다! 아래의 규칙을 따르고 생성된 리포트를 통해 당신이 작업한 결과물이 최고임을 증명하세요!",
+  "SITE_LANGUAGE": "ko",
+  "SITE_DIRECTION": "ltr",
+  "URL_GITHUB_REPO": "https://github.com/kesuskim/Front-End-Checklist",
+  "HIGH_CHECKED": "✓ 필수 항목",
+  "MEDIUM_CHECKED": "✓ 권고 항목",
+  "LOW_CHECKED": "✓ 권유 항목",
+  "SECTION_DOCUMENTATION": "문서",
+  "SECTION_TOOL": "도구",
+  "SECTION_VIDEO": "비디오",
+  "SECTION_TAG": "태그 별 필터링",
+  "alert": {
+    "JAVASCRIPT_DESACTIVATE": "자바스크립트가 비 활성화 되어 있는 것 같습니다. 프론트엔드 체크리스트의 모든 기능을 사용하기 위해 자바스크립트를 활성화 해 주세요."
+  },
+  "form": {
+    "LABEL_PROJECT_NAME": "프로젝트 이름",
+    "TITLE_PROJECT_NAME": "프로젝트의 종류",
+    "LABEL_PAGE_TITLE": "페이지의 제목이나 URL",
+    "TITLE_PAGE_TITLE": "페이지의 이름 또는 URL을 입력하세요",
+    "LABEL_DEVELOPER_NAME": "개발자 본인의 이름이나 팀의 이름",
+    "TITLE_DEVELOPER_NAME": "당신의 이름이나 팀의 이름을 입력하세요",
+    "LABEL_SEARCH": "검색",
+    "BUTTON_START_NEW": "체크리스트 새로 시작하기",
+    "BUTTON_GENERATE_PRINT": "리포트 생성"
+  },
+  "social": {
+    "TWEET": "Tweet",
+    "TWITTER_MSG": "Check the 🔥 NEW Front-End Checklist Application 🔥 for modern websites and meticulous developers! With more than 15 000 🌟 on Github, now you can use it on your daily workflow and generate reports 📑!",
+    "TWITTER_VIA": "thedaviddias",
+    "TWITTER_HASHTAGS": "FrontEndChecklist #FrontEnd #Tool",
+    "STAR": "Star",
+    "GITHUB_STAR_MSG": "Star thedaviddias/Front-End-Checklist on GitHub"
+  }
+}
+
